@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<widget xmlns="http://www.w3.org/ns/widgets"
+    xmlns:gap="http://phonegap.com/ns/1.0"
+    id="br.com.teclick.testeapp"
+    version="1.0.0">
+
+    <name>Menu Só de Cenoura</name>
+
+    <description>
+        Menu do restaurante Só de Cenoura.
+    </description>
+
+    <author href="http://sergiolopes.org" email="qualquer@sergiolopes.org">
+        Sérgio Lopes
+    </author>
+
+    <preference name="permissions" value="none" />
+    <preference name="orientation" value="portrait" />
+    <preference name="fullscreen" value="true" />
+
+    <preference name="android-minSdkVersion" value="16" />
+    <gap:platform name="android" />
+
+    <icon src="icon.png" />
+    <gap:splash src="splash.png" />
+
+    <platform name="android">
+        <!-- you can use any density that exists in the Android project -->
+        <splash src="res/screen/android/drawable-land-hdpi-screen.png" density="land-hdpi"/>
+        <splash src="res/screen/android/drawable-land-ldpi-screen.png" density="land-ldpi"/>
+        <splash src="res/screen/android/drawable-land-mdpi-screen.png" density="land-mdpi"/>
+        <splash src="res/screen/android/drawable-land-xhdpi-screen.png" density="land-xhdpi"/>
+
+        <splash src="res/screen/android/drawable-port-hdpi-screen.png" density="port-hdpi"/>
+        <splash src="res/screen/android/drawable-port-ldpi-screen.png" density="port-ldpi"/>
+        <splash src="res/screen/android/drawable-port-mdpi-screen.png" density="port-mdpi"/>
+        <splash src="res/screen/android/drawable-port-xhdp-screen.png" density="port-xhdpi"/>
+    </platform>
+
+    <preference name="SplashScreen" value="screen"/>
+    <preference name="SplashScreenDelay" value="1000"/>
+
+</widget>
